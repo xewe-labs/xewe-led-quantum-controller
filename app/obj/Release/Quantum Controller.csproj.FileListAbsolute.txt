@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Quantum Controller\bin\Release\Quantum Controller.exe.config
+C:\Users\user\source\repos\Quantum Controller\bin\Release\Quantum Controller.exe
+C:\Users\user\source\repos\Quantum Controller\bin\Release\Quantum Controller.pdb
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum_Controller.Form1.resources
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum_Controller.Properties.Resources.resources
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.exe
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.pdb
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Quantum Controller\bin\Release\Quantum Controller.exe.manifest
+C:\Users\user\source\repos\Quantum Controller\bin\Release\Quantum Controller.application
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.exe.manifest
+C:\Users\user\source\repos\Quantum Controller\obj\Release\Quantum Controller.application
