@@ -9,7 +9,7 @@ Personal project · Dec 2020 – Apr 2021 · Solo · Status: Completed
 Quantum Controller is a small C# Windows Forms app that controls the addressable LEDs of a custom-lit desktop PC. The user
 picks a mode, one or two colours and a speed, then applies them to the case strip, one of the three front fans, all fans,
 or everything. The app turns that choice into a short ASCII command and writes it over a serial (UART) port to an Arduino Nano
-running the [QuantumController MC firmware](https://github.com/xewe-labs/xewe-led-quantum-controller), which drives four
+running the [QuantumController MC firmware](../firmware/), which drives four
 LED channels. The interface is a frameless 400 × 400 window in Russian with a custom background skin.
 
 ## Highlights
@@ -43,7 +43,7 @@ mode + colours + speed + target button → sendCommand(channel) → "$<mode><cha
 
 ```text
 1. Open "Quantum Controller.sln" in Visual Studio 2019 or later (.NET Framework 4.7.2 targeting pack)
-2. Flash the firmware from xewe-led-quantum-controller to an Arduino Nano and connect it; it must appear as COM3
+2. Flash the firmware from ../firmware/ to an Arduino Nano and connect it; it must appear as COM3
    (or change quantum_port.PortName in Form1.Designer.cs)
 3. Build and run (F5). The "o" in the top-right corner turns green when the port is open; click it to reconnect
 ```
@@ -56,6 +56,6 @@ output. The UI text is Russian.
 
 ## Documents
 
-- Firmware: [xewe-led-quantum-controller](https://github.com/xewe-labs/xewe-led-quantum-controller) (photos and videos of the build in its `static/media/`)
+- Firmware: [firmware/](../firmware/) (photos and videos of the build in `firmware/static/media/`)
 - Project page: [maxdokukin.com/projects/xewe-led-quantum-controller](https://maxdokukin.com/projects/xewe-led-quantum-controller)
 - Related: the later ESP32 lighting platform, XeWe LED OS — [project page](https://maxdokukin.com/projects/xewe-led-os) · [GitHub](https://github.com/xewe-labs/xewe-led-os)

@@ -9,7 +9,7 @@ Personal project · Dec 2020 – Apr 2021 · Solo · Status: Completed
 QuantumController MC is the Arduino Nano firmware behind a custom-lit desktop PC. The Nano drives four addressable LED
 strips — one around the case (77 LEDs) and one in each of three front fans (16 LEDs each) — and takes commands over the
 PC's serial (UART) link from a companion Windows app,
-[xewe-led-quantum-controller-app](https://github.com/xewe-labs/xewe-led-quantum-controller-app), where the user picks a
+[app/](../app/), where the user picks a
 mode, colours and speed and applies them to the case, a single fan, all fans or everything. Each channel runs its own
 effect (single colour, pulse, fade, Perlin-noise "smart fade", rainbow), cross-fades through black when the mode changes,
 and remembers its last mode and parameters in EEPROM across power cycles.
@@ -82,7 +82,7 @@ expects the Nano on `COM3`. On each connection the app sends `$r;`, which soft-r
 
 ## Documents
 
-- Windows app: [xewe-led-quantum-controller-app](https://github.com/xewe-labs/xewe-led-quantum-controller-app)
+- Windows app: [app/](../app/)
 - Project page: [maxdokukin.com/projects/xewe-led-quantum-controller](https://maxdokukin.com/projects/xewe-led-quantum-controller)
 - Photos and videos: [`static/media/`](static/media/)
 - Related: the later ESP32 lighting platform, XeWe LED OS — [project page](https://maxdokukin.com/projects/xewe-led-os) · [GitHub](https://github.com/xewe-labs/xewe-led-os)
